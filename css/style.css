@@ -1,0 +1,480 @@
+/*	RESPONSIVE
+@media screen and (max-width: 960px) {
+	#container, footer {
+		width: 758px;
+	}
+	
+	#content {
+		margin: 0 20px 0 0;
+	}
+	
+	#sidebar {
+		width: 212px;
+	}
+	#sidebar section {
+		clear: left;
+	}
+	#sidebar #search #searchbar {
+		width: 152px;
+	}
+}
+
+@media screen and (max-width: 758px) {
+	#container, footer, #sidebar {
+		width: 524px;
+	}
+	
+	header nav {
+		clear: left; float: none; overflow: hidden;
+	}
+		header nav li {
+			width: auto; margin: 0 25px 0 0;
+		}
+	
+	header {
+		margin: 0 0 44px 0;
+	}
+	
+	header h1 {
+		margin: 0 0 24px 0;
+	}
+	
+	#sidebar section {
+		float: left; clear: none;
+	}
+	#sidebar #social {
+		margin: 0 20px 47px 0;
+	}
+
+	#sidebar #search #searchbar {
+			width: 464px;
+	}
+}
+
+@media screen and (max-width: 524px) {
+	#container, footer, #sidebar, #content {
+		width: 292px;
+	}
+	
+	#content article h2 {
+		font-size: 24px;
+	}
+	
+	#content .postinfo li {
+		margin: 0 10px 0 0;
+	}
+	
+	#sidebar #social {
+			margin: 0;
+		}
+		
+	#sidebar #search #searchbar {
+		width: 230px;
+	}
+}*/
+
+@font-face { 	font-family: "Libre"; 	src: url('/fonts/mido_igual.ttf'); }
+
+/*@media screen and (max-width: 1280px) {*/
+BODY {
+	
+
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	background-image:url("../img/background_body.jpg");
+	background-position: left top;
+	background-repeat:no-repeat;
+	background-color:#252525;
+	margin:0px;
+	padding:0px;
+
+
+} 	
+/* overflow-x : hidden; */
+
+
+div#wrapper{
+position: relative;
+width:100%; 
+background-color: transparent;	
+z-index:10;
+}
+
+#slide1{
+width:1900px;
+padding-top:20px;
+min-height:640px;
+margin-left: auto; 
+margin-right: auto;	
+}
+#slide2{
+width:1900px;
+min-height:740px;
+background:url(../img/background_disto.jpg);
+background-repeat: no-repeat;
+background-position: 0px -250px;
+}#slide3{
+width:1900px;
+min-height:740px;
+background:url(../img/background_delay.jpg);
+background-repeat: no-repeat;
+background-position: 0px -250px;
+}#slide4{
+width:1900px;
+min-height:740px;
+background:url(../img/background_noise.jpg);
+background-repeat: no-repeat;
+background-position: 0px -250px;
+}#slide5{
+width:1900px;
+min-height:740px;
+background:url(../img/background_compressor.jpg);
+background-repeat: no-repeat;
+background-position: 0px -250px;
+}
+ 
+/***********************************************************************************/
+/***********************BANDEAU SUP*********************************************/
+/***********************************************************************************/
+
+div#bandeau_sup{
+position : relative;
+margin-left: auto;
+margin-right: auto;
+width : 1280px;
+height : 124px;
+/*background-color : #252525;*/
+font-family:Libre, "Trebuchet MS", Arial, Helvetica, sans-serif;  
+
+}
+
+
+#logo{
+float : left;
+margin-top : 2%;
+margin-left : 13%;
+}
+
+div#liserai{
+position:absolute;
+z-index:999;
+margin-top:5px;
+width:100%;
+background-color:#252525;
+height:5px;
+}
+
+
+
+/***********************************************************************************/
+/***********************MAIN PAGE*********************************************/
+/***********************************************************************************/
+
+
+div#content_main{
+position:relative;
+width:1280px;
+margin-left:auto;
+margin-right:auto;
+}
+
+div#slide1 ul{
+position:relative;
+list-style-type:none;
+float:left;	
+}
+
+	
+#disto{ 
+  float:left;
+  background:url(../img/disto.jpg);
+  background-position:center center;
+  height : 400px;
+  width:640px;
+  background-repeat: no-repeat;
+  cursor : pointer;
+
+ }
+ 
+ #disto:hover{ 
+  float:left;
+  background:url(../img/disto_hover.jpg);
+  background-position:center center;
+  height : 400px;
+  width:640px;
+  background-repeat: no-repeat; 
+  cursor : pointer;
+
+ }
+ 
+ #delay{ 
+  float:left;
+  background:url(../img/delay.jpg);
+  background-position:center center;
+  height : 400px;
+  width:640px;
+  background-repeat: no-repeat;
+  cursor : pointer;
+ }
+ 
+  #delay:hover{ 
+  float:left;
+  background:url(../img/delay_hover.jpg);
+  background-position:center center;
+  height : 400px;
+  width:640px;
+  background-repeat: no-repeat;
+  cursor : pointer;
+ }
+ 
+ #compressor{ 
+  float:left;
+  background:url(../img/compressor.jpg);
+  background-position:center center;
+  height : 499px;
+  width:640px;
+  background-repeat: no-repeat;
+  cursor : pointer;
+ }
+ 
+  #compressor:hover{ 
+  float:left;
+  background:url(../img/compressor_hover.jpg);
+  background-position:center center; 
+  height : 499px;
+  width:640px;
+  background-repeat: no-repeat;
+  cursor : pointer;
+ }
+ 
+ #noise{ 
+  float:left;
+  background:url(../img/noise.jpg);
+  background-position:center center;
+  height : 499px;
+  width:640px;
+  background-repeat: no-repeat;
+  cursor : pointer;
+ }
+ 
+  #noise:hover{ 
+  float:left;
+  background:url(../img/noise_hover.jpg);
+  background-position:center center;
+  height : 499px;
+  width:640px;
+  background-repeat: no-repeat;
+  cursor : pointer;
+ }
+
+
+/***********************************************************************************/
+/***********************DISTO PAGE*********************************************/
+/***********************************************************************************/
+
+ 
+ div#gauche{
+ float:left;
+ width:50%;
+
+ }
+ 
+ div#droite{
+ float:left;
+ width:50%;
+ }
+ 
+ img#content_disto-main{
+ float:left;
+ padding-right:1%;
+ }
+ 
+span.title_int_disto {
+  float:left;
+  margin-top:-30px;
+}
+ 
+ p.text_intro_disto {
+position:relative;  
+ width:374px;
+ margin-top:5%;
+} 
+
+span.titre_explication_disto {
+margin-left:31%;
+
+}
+
+
+p.text_explication_disto {
+ margin-left:31%;
+ margin-top:-0.005%;
+ width:245px;
+
+}
+ 
+ 
+ div#bas{
+ float:left;
+ margin-left:auto;
+ margin-right:auto;
+ width:100%;
+ padding-top:45px;
+
+}
+
+div#cadre_black{
+float:left;
+background:url(../img/content_disto/background_cadre_black_small.png);
+background-position:center 10px;
+background-repeat: no-repeat;
+width:100%;
+height:280px;
+padding-top:1%;
+}
+
+
+div#galleria_disto{
+margin-top:-13.2%;
+margin-left:45%;
+height:230px;
+width:460px;
+}
+div#galleria_noise{
+margin-top:-7%;
+margin-left:45%;
+height:230px;
+width:460px;
+
+}
+div#galleria_delay{
+margin-top:-9.6%;
+margin-left:45%;
+height:230px;
+width:460px;
+}
+
+div#galleria_compressor{
+margin-top:-10.6%;
+margin-left:45%;
+height:230px;
+width:460px;  
+}
+
+img#slide_disto{
+float:left;
+margin-left:53%;
+margin-top:-12.5%;
+
+}
+ 
+ 
+ img#content_disto-pedale_disto{
+ float:left;
+ margin-left:61%;
+ margin-top:-2%;
+ margin-bottom:2%;
+ }
+ 
+ div#liserai_bas{
+position:absolute;
+z-index:999;
+float:left;
+margin-top:-10px;
+width:1900px;
+background-color:#252525;
+height:5px;
+
+}
+ 
+ footer{
+  position:relative;
+
+  height:370px;
+  padding-top:10px;
+  background:url(../img/footer.jpg);
+  background-position:center center; 
+  background-repeat: no-repeat;
+  background-color:#252525;
+}
+
+
+div#inner_footer{
+ position:relative;
+  width:1280px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:10px;
+  text-align:center;
+}
+ 
+ div#foot_gch, div#foot_centre, div#foot_drt{
+ float:left;
+ width:23%;
+ padding-right:5%;
+ padding-left:5%;
+ }
+
+
+
+
+
+ 
+/*
+#nav {
+	float:left;
+    margin-top:10px;
+    padding: 5px 10px;
+}
+ 
+#nav ul li{
+    display:inline;
+    margin-right:10px;
+}
+
+#nav a {
+    COLOR: #efefef; FONT-FAMILY:  Helvetica, sans-serif; text-decoration: none; font-size:12px;line-height: 14px;
+} 
+#nav a:hover {
+     COLOR: #efefef; FONT-FAMILY:  Helvetica, sans-serif; text-decoration: none; font-weight : bold; font-size:12px;line-height: 14px;
+}
+#nav a.visited {
+    COLOR: #efefef; FONT-FAMILY:  Helvetica, sans-serif; text-decoration: none; font-size:12px;line-height: 14px;
+}
+
+/***********************************************************************************/
+/***********************FIN BANDEAU SUP*********************************************/
+/***********************************************************************************/
+
+
+
+/*
+#content{
+	float:left;
+    overflow:hidden;
+	width:100%;
+	height:62%;
+    -moz-box-shadow: 0 0 2px 2px #ccc;
+    -webkit-box-shadow: 0 0 2px 2px #ccc;
+    box-shadow: 0 0 2px 2px #ccc;
+}
+ 
+.contentbox-wrapper{
+    position:relative;
+   	/*overflow:hidden;
+	width:600%;
+	height:62%;
+}
+ 
+.contentbox{
+    float:left;
+	width:99.9%;
+    height:62%;
+    padding:10px;
+    background:#fff;
+}
+*/
+
+
+/*}*/
+
+
